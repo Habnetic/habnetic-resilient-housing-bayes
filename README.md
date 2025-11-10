@@ -25,12 +25,20 @@ The goal is to provide transparent, reproducible probabilistic models that can i
 ## 🧩 Repository Structure
 ```
 resilient-housing-bayes/
+│   .gitignore
+│   LICENSE
+│   README.md
 │
-├── data/              → synthetic and example datasets
-├── notebooks/         → research notebooks and experiments
-├── src/               → reusable model components
-├── docs/              → technical notes and reports
-└── LICENSE            → MIT License (Habnetic)
+├───data/
+├───docs/
+├───notebooks/
+│       01_data_exploration.ipynb
+│       02_synthetic_generation.ipynb
+│       03_model_definition.ipynb
+│       04_inference_and_validation.ipynb
+│       05_visualization.ipynb
+│
+└───src/
 ```
 
 ---
@@ -68,6 +76,13 @@ If you use this work, please cite:
 
 > **Habnetic (2025)**. *Resilient Housing Bayes: Bayesian Modeling Framework for Housing Resilience.* Habnetic Open Research.  
 > [https://github.com/Habnetic/resilient-housing-bayes](https://github.com/Habnetic/resilient-housing-bayes)
+
+---
+
+## Linked repositories:
+- [Habnetic Data](https://github.com/Habnetic/data)
+- [Habnetic Docs](https://github.com/Habnetic/docs)
+- [Public Site](https://habnetic.org)
 
 ---
 
